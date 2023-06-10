@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+@media screen and (min-width: 992px) {
+  .bg-grey {
+    background: #f7f7f7;
+  }
+
+  section > .container {
+    width: 1170px;
+    margin: auto;
+    display: block;
+    padding: 30px 50px;
+  }
+  /*............. baner..................*/
+  /*............. baner..................*/
+
+  /*....................................nav-bar................................*/
+  #nav-bar {
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  #nav-bar > .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  #nav-bar a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    color: black;
+    padding: 20px 20px;
+
+    text-transform: uppercase;
+  }
+  #nav-bar a .icon {
+    color: blue;
+  }
+  .navbar-text {
+    padding: 0 30px;
+  }
+  /* muc tiêu nghề nghiệp thông  tin cá nhân  */
+  #about > .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    column-gap: 40px;
+  }
+  .section-title {
+    font-size: 25px;
+    padding-bottom: 40px;
+  }
+  #target {
+    padding: 0 20px 20px 60px;
+  }
+  #target p {
+    font-size: 18px;
+    line-height: 2;
+    text-align: justify;
+  }
+  #personal-info ul {
+    margin-bottom: 20px;
+    list-style: none;
+  }
+  #personal-info ul > li {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  #personal-info .icon {
+    color: blue;
+    font-size: 20px;
+  }
+  /*............................... kinh nghiêm.................................*/
+
+  #job-info > .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    column-gap: 10px;
+    row-gap: 20px;
+    border: 1px solid gray;
+    padding: 10px;
+    border: 1px solid gray;
+  }
+  #job-info .grids {
+    display: grid;
+    grid-template-columns: 75% 25%;
+  }
+  .grids h1 {
+    font-size: 25px;
+  }
+  #job-info .grids i {
+    font-size: 38px;
+  }
+
+  .job-info-content {
+    padding: 5px;
+  }
+  .job-info-content h3 {
+    font-size: 20px;
+  }
+
+  .job-info-content ul {
+    padding-left: 0;
+    margin-bottom: 30px;
+
+    list-style: none;
+  }
+  .job-info-content ul > li {
+    padding-left: 5px;
+    padding-bottom: 10px;
+  }
+
+  .job-info-content ul > li::before {
+    content: "-";
+    padding-left: 0;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  .job-info-content p {
+    padding: 15px 0;
+  }
+  .job-info-content h3::before {
+    font-size: 25px;
+    color: blue;
+    content: "\25CF";
+    padding-right: 5px;
+  }
+  .now {
+    padding: 5px;
+    color: aliceblue;
+    background-color: #199cdb;
+    border-radius: 12%;
+    text-align: center;
+    /*
+  background-color: rgb(163, 163, 239);
+  padding: 7px;
+  border-radius: 80px;*/
+  } /*style cho phàn ngông ngữ và kỹ năng */
+  /*icond chp phan so thích*/
+  .interest-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 174, 255);
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .ngonngu {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  .xam {
+    background: #f3eded;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  /*..................... chứng chỉ giải thưởng....................*/
+  .grid-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 3rem;
+    row-gap: 2rem;
+    padding: 5px;
+    justify-content: center;
+    align-content: center;
+  }
+  .flex-item {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 2rem;
+  }
+
+  .content h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  /* tạo border  dương gach thang dung o giưa*/
+  .borderstyle {
+    padding-left: 40px;
+    border-left: 2px solid #d6c08d;
+  } /*bor duong gach chan o duoi cung*/
+  .bordertop {
+    padding-bottom: 20px;
+    border-top: 1px solid #d6c08d;
+    grid-column: 1/-1;
+  }
+
+  /*........................ ....................................*/
+  /*Dư anh******/
+  .grid-thee {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    justify-content: center;
+    align-content: center;
+  }
+  .logo-icon {
+    display: flex;
+    justify-self: flex-start;
+    align-content: center;
+    background-color: #d6c08d;
+    padding: 10px 0;
+    margin-top: 0;
+    gap: 10px;
+  }
+  .sub-logo-icon {
+    display: flex;
+    gap: 10px;
+  }
+  .logo-icon p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .grid-thee img {
+    max-width: 80%;
+  }
+  .bodder {
+    border: 1px solid gray;
+  }
+  .cv {
+    background-color: rgb(234, 238, 130);
+    padding: 10px 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  td {
+    padding: 5px;
+  }
+  table {
+    border-spacing: 2px;
+  }
+  /* phân footer*/
+  #footer .footerr {
+    display: flex;
+  }
+  #footer .footerr i,
+  .footerr span {
+    display: inline-block;
+    font-size: 26px;
+    color: blue;
+  }
+}

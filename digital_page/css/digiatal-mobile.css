@@ -1,0 +1,134 @@
+@media screen and (max-width: 767px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    margin: 0 auto;
+    background-color: blue;
+    padding: 10px;
+    /* display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: 1fr; */
+    /* chia lay out bang grid areA*/
+    /* grid-template-areas:
+      "box-1 "
+      "box-2"
+      "box-3 "
+      "box-4 "
+      "box-5"; */
+  }
+
+  .container .grids {
+    display: grid;
+    padding: 10px;
+    /* grid-template-columns: 1fr;
+    column-gap: 10px;
+   
+    justify-content: center;
+    align-content: center; */
+    border-bottom: 1px solid gray;
+  }
+
+  /* style cho các icon cũng dùng chung*/
+  .grids i {
+    display: inline-block;
+
+    font-size: 30px;
+  }
+  .grids .icon {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+  }
+
+  .number {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: grey;
+    text-align: center;
+    padding: 10px;
+  }
+
+  /* tất cả các thẻ h2 bao gồm Goals Team Timeline Scopes Primary  có cùng font chữ
+  và borde button*/
+  .container h2 {
+    border-bottom: 3px solid grey;
+  }
+
+  .box1 {
+    /* grid-area: box-1; */
+    background-color: #f8f8f8;
+    padding: 2em;
+    margin-bottom: 1em;
+  }
+
+  .box2 {
+    grid-area: box-2;
+    background-color: #f8f8f8;
+    padding: 2em;
+    margin-bottom: 1em;
+  }
+
+  /* xóa bỏ đi  dường vieen  dưới đã tạo ở Grid chung*/
+  .box2 .grids {
+    border-bottom: none;
+  }
+
+  .box3 {
+    grid-area: box-3;
+    background-color: #f8f8f8;
+    padding: 2em;
+    margin-bottom: 1em;
+  }
+
+  /* xóa bỏ đi  dường vieen  dưới đã tạo ở Grid chung ở box3 và đồng thời thiêt lập lại độ rông
+  cho hai côt là 20%  và 80%*/
+  .box3 .grids {
+    /* display: grid;
+    grid-template-columns: 20% 80%; */
+    /* column-gap: 10px; */
+    padding: 10px;
+    /* justify-content: center;
+    align-content: center;
+    border-bottom: none; */
+    border-bottom: none;
+  }
+
+  /* tạo boder mới cho phần  nội dung chữ*/
+  .box3 .grids .project-content {
+    border-bottom: 1px dotted grey;
+    padding-bottom: 1em;
+  }
+
+  .box4 {
+    /* grid-area: box-4; */
+    background-color: #f8f8f8;
+    padding: 2em;
+    margin-bottom: 1em;
+  }
+  .box4 .box4-grids p {
+    line-height: 1.5;
+    padding-bottom: 1em;
+  }
+  .box4 h2 {
+    margin-bottom: 1rem;
+  }
+
+  .box5 {
+    /* grid-area: box-5; */
+    background-color: #f8f8f8;
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+
+  /* .box5 h2 {
+    margin-bottom: 1em;
+  } */
+  .box5 .icon {
+    margin-bottom: 1em;
+  }
+}

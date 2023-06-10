@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/*............. baner..................*/
+#banner {
+  position: relative;
+  padding: 5px;
+}
+#banner img {
+  max-width: 100%;
+  height: auto;
+}
+.text-baner {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #f7f7f7;
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+  font-size: 18px;
+}
+/*Thong tin ca nhan*/
+.hide {
+  display: none;
+}
+/*phan kinh nghiem*/
+#job-info .row .colum-spacing {
+  border: 1px solid gray;
+  height: auto;
+  padding: 30px 5px;
+}
+/* phan so thich interrest icon*/
+
+/*hinh anh cho pan chung chi giai thuong*/
+
+.img-flex {
+  flex-basis: 60%;
+}
+.content {
+  flex-basis: 40%;
+}
+.flex-item img {
+  max-width: 100%;
+  height: auto;
+}
+.flex-item ul {
+  list-style: none;
+  padding-left: 0;
+}
+.flex-item ul li {
+  margin: 10px 0;
+}
+.flex-item ul li::before {
+  content: "-";
+  padding-right: 10px;
+}
+/* tạo border  dương gach thang dung o giưa chi apdung ch0
+laptop v*/
+.borderstyle {
+  padding-left: 40px;
+  border-left: 2px solid #d6c08d;
+} /*bor duong gach chan o duoi cung*/
+.bordertop {
+  padding-bottom: 20px;
+  border-top: 1px solid #d6c08d;
+  grid-column: 1/-1;
+}
+.content h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.flex-item ul li::before {
+  content: "-";
+  padding-right: 10px;
+}
+.footerr > div {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 25%;
+  color: blue;
+}
+/* su ly thong tin cho form nhap email*/
+.hide {
+  display: none;
+}
+/* ẩn  hết thông tin của các côt ngôn ngữ ký năng*/
+.colum-spacing .show-hide {
+  display: none;
+}
+
+.viewmore {
+  display: none;
+  margin-bottom: 1rem;
+}
+.viewless {
+  display: none;
+}

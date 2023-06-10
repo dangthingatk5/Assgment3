@@ -1,0 +1,195 @@
+@media screen and (max-width: 767px) {
+  #banner {
+    position: relative;
+    padding: 5px;
+  }
+
+  /*.................................navbar..........................r*/
+  .navbar-text {
+    display: none;
+  }
+  #nav-bar a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .text-baner {
+    font-size: 12px;
+  }
+  /*....... muc tiêu nghê nghiệp thông tin  cá nhân..........*/
+  #target,
+  #personal-info {
+    background-color: #f8f8f8;
+  }
+  #personal-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  /* phan kinh nghiem*/
+  /****** hoc vấn******************************/
+  #job-info .grids {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    padding-left: 1rem;
+  }
+  #job-info .grids i {
+    font-size: 30px;
+  }
+  .job-info-content h3 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  /**/
+  .job-info-content ul {
+    padding-left: 0;
+    margin-bottom: 30px;
+    list-style: none;
+  }
+  .job-info-content ul > li {
+    padding-left: 5px;
+    padding-bottom: 10px;
+  }
+
+  .job-info-content ul > li::before {
+    content: "-";
+    padding-left: 0;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  .job-info-content p {
+    padding: 15px 0;
+    font-size: 16px;
+  }
+  .now {
+    padding: 5px;
+    color: aliceblue;
+    background-color: #199cdb;
+    border-radius: 12%;
+    text-align: center;
+    /*
+  background-color: rgb(163, 163, 239);
+  padding: 7px;
+  border-radius: 80px;*/
+  } /*style cho phàn ngông ngữ và kỹ năng */
+  /*icond chp phan so thích*/
+  .interest-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 174, 255);
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .ngonngu {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  .xam {
+    background: #f3eded;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+
+  /* chứng chỉ giải thưởng*/
+  /*.................... chung chi giai thuong.......................................8*/
+  .grid-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 3rem;
+    row-gap: 2rem;
+    padding: 5px;
+    justify-content: center;
+    align-content: center;
+  }
+  .flex-item {
+    display: block;
+  }
+  .flex-item {
+    display: block;
+    /*flex-direction: column;
+    column-gap: 2rem;*/
+  }
+
+  .content h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  /* du an*/
+  .grid-thee {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    row-gap: 1rem;
+    justify-content: center;
+    align-content: center;
+  }
+  .grid-thee img {
+    max-width: 80%;
+  }
+  .bodder {
+    border: 1px solid gray;
+  }
+  .cv {
+    background-color: rgb(234, 238, 130);
+    padding: 5px 0;
+    font-size: 12px;
+  }
+  td {
+    padding: 5px;
+  }
+  table {
+    border-spacing: 2px;
+  }
+  .now {
+    padding: 5px;
+    color: aliceblue;
+    background-color: #199cdb;
+    border-radius: 12%;
+    text-align: center;
+    /*
+  background-color: rgb(163, 163, 239);
+  padding: 7px;
+  border-radius: 80px;*/
+  }
+  /*Du an.......................*/
+  .now {
+    color: aliceblue;
+    background-color: #199cdb;
+    border-radius: 12%;
+    text-align: center;
+
+    /*
+background-color: rgb(163, 163, 239);
+padding: 7px;
+border-radius: 80px;*/
+  }
+  .logo-icon {
+    display: block;
+  }
+  /*footer*/
+  .footerr > div {
+    text-align: center;
+    font-size: 30px;
+  }
+  /*phan foooter*/
+  #footer .footerr {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  #footer .footerr i,
+  .footerr span {
+    display: inline-block;
+    font-size: 16px;
+    color: blue;
+  }
+}

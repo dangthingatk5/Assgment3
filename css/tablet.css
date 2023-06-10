@@ -1,0 +1,230 @@
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  * {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  /*............. baner..................*/
+
+  /*...navbar.......*/
+  .navbar-text {
+    display: none;
+  }
+  #nav-bar > .container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  #nav-bar a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  /*...................target..................*/
+  #about > .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
+    justify-content: center;
+    align-content: center;
+    padding: 5px 20px;
+    text-align: justify;
+  }
+  #personal-info ul {
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  #personal-info ul li {
+    list-style: none;
+  }
+  #personal-info .icon {
+    color: blue;
+    font-size: 16px;
+  }
+  #target p {
+    #target p {
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: justify;
+    }
+  }
+  .section-title {
+    font-size: 20px;
+  }
+  /****** hoc vấn******************************/
+  /****** hoc vấn******************************/
+  /****** hoc vấn******************************/
+  #job-info .grids {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    padding-left: 1rem;
+  }
+  #job-info .grids h1 {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  #job-info .grids i {
+    font-size: 30px;
+  }
+  .job-info-content h3 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  /**/
+  .job-info-content ul {
+    padding-left: 0;
+    margin-bottom: 30px;
+    list-style: none;
+  }
+  .job-info-content ul > li {
+    padding-left: 5px;
+    padding-bottom: 10px;
+  }
+
+  .job-info-content ul > li::before {
+    content: "-";
+    padding-left: 0;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  .job-info-content p {
+    padding: 15px 0;
+  }
+  .now {
+    padding: 5px;
+    color: aliceblue;
+    background-color: #199cdb;
+    border-radius: 12%;
+    text-align: center;
+    /*
+  background-color: rgb(163, 163, 239);
+  padding: 7px;
+  border-radius: 80px;*/
+  } /*style cho phàn ngông ngữ và kỹ năng */
+  /*icond chp phan so thích*/
+  .interest-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 174, 255);
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .ngonngu {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  .xam {
+    background: #f3eded;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+
+  /*........chung chi giaithuong....................*/
+  /*.................... chung chi giai thuong.......................................8*/
+  .grid-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 3rem;
+    row-gap: 2rem;
+    padding: 5px;
+    justify-content: center;
+    align-content: center;
+  }
+  .flex-item {
+    display: flex;
+    flex-direction: column;
+    column-gap: 2rem;
+  }
+  /* tạo border  dương gach thang dung o giưa chi apdung ch0
+laptop và tablet*/
+  .borderstyle {
+    padding-left: 40px;
+    border-left: 2px solid #d6c08d;
+  } /*bor duong gach chan o duoi cung*/
+  .bordertop {
+    padding-bottom: 20px;
+    border-top: 1px solid #d6c08d;
+    grid-column: 1/-1;
+  }
+  /*...............du an...............*/
+  /*Dư anh******/
+  .now {
+    color: aliceblue;
+    background-color: #199cdb;
+    border-radius: 12%;
+    text-align: center;
+
+    /*
+background-color: rgb(163, 163, 239);
+padding: 7px;
+border-radius: 80px;*/
+  }
+  .logo-icon .now {
+    align-self: start;
+  }
+  .grid-thee {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    justify-content: center;
+    align-content: center;
+  }
+  .logo-icon {
+    display: flex;
+    justify-self: flex-start;
+    align-content: center;
+    background-color: #d6c08d;
+    padding: 10px 0;
+    margin-top: 0;
+    gap: 10px;
+  }
+  .sub-logo-icon {
+    display: block;
+  }
+  .logo-icon p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .grid-thee img {
+    max-width: 80%;
+  }
+  .bodder {
+    border: 1px solid gray;
+  }
+  .cv {
+    background-color: rgb(234, 238, 130);
+    padding: 10px 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  td {
+    padding: 5px;
+  }
+  table {
+    border-spacing: 2px;
+  }
+  /*phan foooter*/
+  #footer .footerr {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  #footer .footerr i,
+  .footerr span {
+    display: inline-block;
+    font-size: 20px;
+    color: blue;
+  }
+}
